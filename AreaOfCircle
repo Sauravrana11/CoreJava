@@ -1,0 +1,22 @@
+ import java.util.Scanner;
+				
+public class AreaofCircle  {					
+	public static void main(String[] args) {
+	double area, circle, radius;			
+	double p1 = 3.1412;
+
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the radius of circle ::");
+	
+	radius = sc.nextDouble();
+
+	area = p1 * radius * radius;
+	circle = 2 * p1 * radius;
+
+	System.out.println("Area = " + area); 
+	System.out.println("Circumfrence = " + circle);
+	sc.close();
+	}
+}	
+
+	   
