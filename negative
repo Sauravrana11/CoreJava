@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class negative{
+	
+	public static void main(String[] args){
+ 	int a,b,result;
+
+	Scanner sc = new Scanner(System.in);
+	System.out.printf(" Enter the first  value ::");
+
+	a = sc.nextInt();
+
+	System.out.printf(" Enter the second value ::");
+
+	b = sc.nextInt();
+
+	result b;
+
+	System.out.println("Result = "+result);
+	sc.close();
+	}
+
+}
