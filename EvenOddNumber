@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class EvenOddNumber {
+     
+     public static void main(String[] args) {
+
+	int num1,num2;
+
+	Scanner sc = new Scanner(System.in);
+	System.out.printf("Enter The First Number : ");
+	num1 = sc.nextInt();
+	System.out.println("");
+	System.out.printf("Enter The Second Number : ");
+	num2 = sc.nextInt();
+
+	if(num1 % 2 == 0)
+	   System.out.println(num1 + " :: Thise Is Even Number");
+
+	if(num1 % 2 != 0)
+	   System.out.println(num1 + "  :: Thise Is Odd Number");
+	
+	
+	if(num2 % 2 == 0)
+	   System.out.println(num2 + " :: Thise Is Even Number");
+
+	if(num2 % 2 != 0)
+	   System.out.println(num2 + "  :: Thise Is Odd Number");
+
+	sc.close();
+	
+ }
+
+} 
