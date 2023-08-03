@@ -1,0 +1,12 @@
+class Myfirst
+{
+public static void main(String [] args)
+{
+
+System.out.println("Welcome to java first program");
+System.out.println("Thise is second line");
+System.out.println("Thise is third line");
+
+}
+
+}
