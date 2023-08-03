@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CharacterType {
+
+     public static void main(String[] args) {
+
+	Scanner sc = new Scanner(System.in);
+
+	System.out.println("Enter A Charecter : ");
+
+	char ch = sc.next().charAt(0);
+		
+	if(charecter.IsUpperCase(ch));
+
+	{
+	
+		System.out.println("Character is in Upper Case");
+	}
+	
+	else if(CharecterIsLowerCase(ch))
+	
+	{
+		System.out.println("Charecter Is Lower 						
+}
+}
