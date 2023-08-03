@@ -1,0 +1,10 @@
+class Datatype {
+	public static void main(String[] args) {
+		int a = 10;
+		System.out.println("anser a = "+ a);
+		a = 20;
+		System.out.println("anser b = "+ a);
+		a = 50;
+		System.out.println("anser c = "+ a);
+	}
+}
